@@ -1,0 +1,35 @@
+name: copy-squad
+version: 1.0.0
+description: Squad de um único agente para escrever copy de páginas de alta conversão
+author: KLeber Fernandes
+license: MIT
+slashPrefix: copy
+
+aiox:
+  minVersion: "2.1.0"
+  type: squad
+
+components:
+  tasks:
+    - copy-write-page.md
+  agents:
+    - copy.md
+  workflows: []
+  checklists: []
+  templates: []
+  tools: []
+  scripts: []
+
+config:
+  extends: extend
+
+dependencies:
+  node: []
+  python: []
+  squads: []
+
+tags:
+  - copy
+  - marketing
+  - conversion
+  - didatic
